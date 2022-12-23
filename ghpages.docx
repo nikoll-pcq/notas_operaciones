@@ -1,1 +1,6 @@
 para el pages
+
+git branch -m main gh-pag
+git fetch origin
+git branch -u origin/gh-pag gh-pag
+git remote set-head origin -a
