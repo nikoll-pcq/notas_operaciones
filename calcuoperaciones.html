@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notas - operaciones</title>
+    <link rel="stylesheet" href="css/design.css"/>
+</head>
+<body>
+
+    <header>
+        <h1>Notas-operaciones</h1>
+    </header>
+
+
+        <form name="" id="notasoperaciones">
+
+            <div class="campos"><div class="nota1">
+            <label >Nota 1: </label>
+            <input type="number" name="" id="valor1" autofocus
+            placeholder="Escribe un número">
+            <button button type="button" class="boton" name="btn" onclick="limpiar();">Limpiar campos</button></div>
+            <div class="nota2">
+            <label>Nota 2:</label>
+            <input type="number" name="" id="valor2"
+            placeholder="Escribe un número"></div>
+            </div>
+
+            <div class="botones" name="botones">
+            <button type="button" class="boton1" name="btn" onclick="sumar();">Sumar</button>
+            <button type="button" class="boton2" name="btn" onclick="restar();">Restar</button>
+            <button type="button" class="boton3" name="btn" onclick="multiplicar();">Multiplicar</button>
+            <button type="button" class="boton4" name="btn" onclick="dividir();">Dividir</button>
+            <button type="button" class="boton5" name="btn" onclick="promedio();">Promedio</button>
+            </div>
+            <div class="resultado" name="resultado">
+            <p class="rpta">Resultado: <span id="resultado" ></span></p>
+            </div>
+    </form>
+
+    <script type="text/javascript" src="js/funciones.js">
+
+    </script>
+    
+</body>
+</html>

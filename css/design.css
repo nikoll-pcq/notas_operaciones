@@ -1,0 +1,117 @@
+*{ 
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body{
+    background-color: rgb(255, 254, 240);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+header{
+    background-color: dodgerblue;
+    height: 100px;
+    width: 100%;
+    margin: 0px;
+    text-align: left;
+    line-height: 100px;
+    color: white;
+}
+
+.boton{
+    padding: 8px 10px;
+    background-color: cadetblue;
+    color: ghostwhite;
+    border-radius: 5px;
+    border-color: green;
+    cursor: pointer;
+    margin-left: 100px;
+}
+
+.boton1{
+    padding: 8px 10px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-right: 20px;
+    background-color: cadetblue;
+    color: ghostwhite;
+    border-radius: 5px;
+    border-color: green;
+    cursor: pointer;
+}
+.boton2{
+    padding: 8px 10px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-right: 20px;
+    background-color: cadetblue;
+    color: ghostwhite;
+    border-radius: 5px;
+    border-color: green;
+    cursor: pointer;
+}
+.boton3{
+    padding: 8px 10px;
+    margin-top: 10px;
+    margin-right: 20px;
+    font-weight: bold;
+    background-color: cadetblue;
+    color: ghostwhite;
+    border-radius: 5px;
+    border-color: green;
+    cursor: pointer;
+}
+.boton4{
+    padding: 8px 10px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-right: 20px;
+    background-color: cadetblue;
+    color: ghostwhite;
+    border-radius: 5px;
+    border-color: green;
+    cursor: pointer;
+}
+.boton5{
+    padding: 8px 10px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-right: 20px;
+    background-color: cadetblue;
+    color: ghostwhite;
+    border-radius: 5px;
+    border-color: green;
+    cursor: pointer;
+}
+
+.botones{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    padding: 45px;
+
+}
+.campos{
+    margin-left: 40px;
+    margin-top: 40px;
+}
+.nota2{
+    margin-top:60px;
+}
+
+.resultado{
+    position: absolute;
+    margin-top: 0px;
+    width: 100%;
+    height: 549px;
+    font-weight: bold;
+    text-align: left;
+    background-color: lemonchiffon;
+}
+.rpta{
+    margin-top: 40px;
+    margin-left: 40px;
+}
